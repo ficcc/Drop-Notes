@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* CSS for NoteCalculator Component */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notes-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notes-container span {
+  padding-right: 10px;
+}
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70px;
+  text-align: right; /* Align text inside the input box to the right */
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #333;
+  background-color: red;
+  padding: 20px 20px;
+}
+
+.notes-to-take-out {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.notes-to-take-out h2 {
+  margin-bottom: 10px;
+}
+
+.notes-to-take-out > div {
+  margin-bottom: 5px;
+}
+
+.total-after-drop {
+  background-color: red;
+  font-size: larger;
+  padding: 20px 20px;
+  font-weight: bolder;
+}
