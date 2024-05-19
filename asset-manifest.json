@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Drop-Notes/static/css/main.bbc902d7.css",
-    "main.js": "/Drop-Notes/static/js/main.be769089.js",
-    "static/js/453.e7cf893c.chunk.js": "/Drop-Notes/static/js/453.e7cf893c.chunk.js",
+    "main.css": "/Drop-Notes/static/css/main.22809dfb.css",
+    "main.js": "/Drop-Notes/static/js/main.e3bad625.js",
+    "static/js/453.f764542b.chunk.js": "/Drop-Notes/static/js/453.f764542b.chunk.js",
     "index.html": "/Drop-Notes/index.html",
-    "main.bbc902d7.css.map": "/Drop-Notes/static/css/main.bbc902d7.css.map",
-    "main.be769089.js.map": "/Drop-Notes/static/js/main.be769089.js.map",
-    "453.e7cf893c.chunk.js.map": "/Drop-Notes/static/js/453.e7cf893c.chunk.js.map"
+    "main.22809dfb.css.map": "/Drop-Notes/static/css/main.22809dfb.css.map",
+    "main.e3bad625.js.map": "/Drop-Notes/static/js/main.e3bad625.js.map",
+    "453.f764542b.chunk.js.map": "/Drop-Notes/static/js/453.f764542b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbc902d7.css",
-    "static/js/main.be769089.js"
+    "static/css/main.22809dfb.css",
+    "static/js/main.e3bad625.js"
   ]
 }
