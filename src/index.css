@@ -49,14 +49,15 @@ input[type="number"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 70px;
-  text-align: right; /* Align text inside the input box to the right */
+  text-align: right;
 }
 
 .total {
   margin-top: 20px;
   font-size: 1.2rem;
+  font-weight: bolder;
   text-align: center;
-  color: #333;
+  color: black;
   background-color: red;
   padding: 20px 20px;
 }
@@ -75,7 +76,7 @@ input[type="number"] {
 }
 
 .total-after-drop {
-  background-color: red;
+  background-color: green;
   font-size: larger;
   padding: 20px 20px;
   font-weight: bolder;

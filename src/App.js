@@ -22,6 +22,10 @@ const NoteCalculator = () => {
     document.title = "Note Calculator" // Change the title when the component mounts
   }, [])
 
+  useEffect(() => {
+    calculateTotal()
+  }, [notes])
+
   const calculateTotal = () => {
     let sum = 0
     for (const [note, count] of Object.entries(notes)) {
@@ -87,7 +91,6 @@ const NoteCalculator = () => {
     const { name, value } = e.target
     const newNotes = { ...notes, [name]: parseInt(value) || 0 }
     setNotes(newNotes)
-    calculateTotal()
   }
 
   return (
