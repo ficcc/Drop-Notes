@@ -3,15 +3,15 @@ import "./App.css" // Import the CSS file
 
 const NoteCalculator = () => {
   const [notes, setNotes] = useState({
-    20: 0,
-    10: 0,
-    5: 0,
-    2: 0,
-    1: 0,
-    0.5: 0,
-    0.2: 0,
-    0.1: 0,
-    0.05: 0,
+    20: null,
+    10: null,
+    5: null,
+    2: null,
+    1: null,
+    0.5: null,
+    0.2: null,
+    0.1: null,
+    0.05: null,
   })
   const [total, setTotal] = useState(0)
   const [exceedsThreshold, setExceedsThreshold] = useState(false)
@@ -179,7 +179,7 @@ const NoteCalculator = () => {
           />
         </div>
       </div>
-      <div className="total">Total: ${total.toFixed(2)}</div>
+      <div className="total container">Total: ${total.toFixed(2)}</div>
       {exceedsThreshold && (
         <div className="notes-to-take-out container ">
           <h2>To make less than 300:</h2>

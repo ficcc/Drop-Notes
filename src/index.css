@@ -79,5 +79,6 @@ input[type="number"] {
   background-color: green;
   font-size: larger;
   padding: 20px 20px;
+  border-radius: 25px;
   font-weight: bolder;
 }
